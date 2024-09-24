@@ -364,7 +364,9 @@ header .btn-group {
   padding-bottom: var(--py);
   text-align: center;
 }
-
+.change{
+  background: var(--background-primary);
+}
 .hero .h1 {
   margin-bottom: 1rem;
   line-height: 1.6;
@@ -1059,3 +1061,34 @@ footer .wrapper { text-align: center; }
 
   .footer-link { margin-bottom: 0.3rem; }
 }
+
+.project-details {
+  padding: 0;
+  text-align: center;
+}
+
+.project-details .banner-img {
+  margin-bottom: 2rem;
+}
+
+.project-description {
+  margin-bottom: 2rem;
+  color: var(--foreground-secondary);
+}
+
+.project-tech-stack {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.project-tech-stack li {
+  background: var(--action-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: var(--foreground-primary);
+}
+
